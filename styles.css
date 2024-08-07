@@ -1,0 +1,62 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Radio Canada", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(71, 108, 155); 
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(71, 108, 155);
+}
+
+.chamada {
+    background: rgb(158, 82, 154);
+    padding-bottom: 80px;
+    padding-top: 80px; 
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; 
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.5;
+    border: 1px solid rgb(72, 219, 47)
+}
+
+.categoria h2 {
+    color: rgb(71, 108, 155);
+}
