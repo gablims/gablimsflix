@@ -39,6 +39,7 @@ p {
     display: flex;
     overflow-x: auto;
     gap: 10px; 
+    size: 200px;
 }
 
 .categoria-filme {
@@ -65,6 +66,7 @@ p {
     display: flex;
     overflow-x: auto;
     gap: 10px;
+    size: 200px;
 }
 
 .categoria-anime {
