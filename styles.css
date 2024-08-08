@@ -39,7 +39,6 @@ p {
     display: flex;
     overflow-x: auto;
     gap: 10px; 
-    size: 200px;
 }
 
 .categoria-filme {
@@ -81,7 +80,7 @@ p {
 }
 
 .categoria-videoss img:hover {
-    opacity: 1,5;
+    opacity: 1.5;
     border: 1px solid rgb(72, 219, 47)
 }
 
