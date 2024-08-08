@@ -35,7 +35,7 @@ p {
 
 
 
-.categoria-videos-1 {
+.categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 10px; 
@@ -47,12 +47,12 @@ p {
     margin-top: 50px;
 }
 
-.categoria-videos-1 img {
+.categoria-videos img {
     opacity: 0.5;
     height: 200px;
 }
 
-.categoria-videos-1 img:hover {
+.categoria-videos img:hover {
     opacity: 1.5;
     border: 1px solid rgb(72, 219, 47)
 }
@@ -61,7 +61,7 @@ p {
     color: rgb(71, 108, 155);
 }
 
-.categoria-videos-2 {
+.categoria-videoss {
     display: flex;
     overflow-x: auto;
     gap: 10px;
@@ -73,12 +73,12 @@ p {
     margin-top: 50px;
 }
 
-.categoria-videos-2 img {
+.categoria-videoss img {
     opacity: 0.5;
     height: 200px;
 }
 
-.categoria-videos-2 img:hover {
+.categoria-videoss img:hover {
     opacity: 1,5;
     border: 1px solid rgb(72, 219, 47)
 }
@@ -86,3 +86,4 @@ p {
 .categoria-anime h2 {
     color: rgb(71, 108, 155)
 }
+
