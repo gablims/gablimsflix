@@ -14,7 +14,7 @@ header {
 }
 
 .chamada {
-    background: rgb(158, 82, 154);
+    background: rgb(209, 80, 80);
     padding-bottom: 80px;
     padding-top: 80px; 
     display: flex;
@@ -35,28 +35,54 @@ p {
 
 
 
-.categoria-videos {
+.categoria-videos-1 {
     display: flex;
     overflow-x: auto;
     gap: 10px; 
 }
 
-.categoria {
+.categoria-filme {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
 }
 
-.categoria-videos img {
+.categoria-videos-1 img {
     opacity: 0.5;
     height: 200px;
 }
 
-.categoria-videos img:hover {
+.categoria-videos-1 img:hover {
     opacity: 1.5;
     border: 1px solid rgb(72, 219, 47)
 }
 
-.categoria h2 {
+.categoria-filme h2 {
     color: rgb(71, 108, 155);
+}
+
+.categoria-videos-2 {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-anime {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos-2 img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos-2 img:hover {
+    opacity: 1,5;
+    border: 1px solid rgb(72, 219, 47)
+}
+
+.categoria-anime h2 {
+    color: rgb(71, 108, 155)
 }
